@@ -1,0 +1,81 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container
+{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 50px;
+   
+    
+}
+
+
+
+.name_mail
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.name_mail input
+{
+    width: 100%;
+}
+
+.name_mail div:first-child
+{
+    padding-right: 20px;
+}
+
+
+
+input, h1
+{
+   height: 50px;
+   margin-bottom: 15px;
+}
+
+input, textarea
+{
+    background-color: rgb(184, 182, 182);
+    border: none;
+    border-radius: 3px;
+}
+
+.website
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message
+{
+    display: flex;
+    flex-direction: column;
+}
+
+button
+{
+    background-color: rgb(60, 60, 245);
+    width: 70px;
+    padding: 15px 25px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+span
+{
+    font-size: 14px;
+    
+}
